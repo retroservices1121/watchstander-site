@@ -1,0 +1,11 @@
+:root{--navy:#001C4B;--orange:#FF4F00;--otext:#FF8A4D}
+*{box-sizing:border-box}body{margin:0;background:var(--navy);color:#fff;font:18px/1.6 -apple-system,"Segoe UI",Roboto,sans-serif}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
+h1,h2,.brand{font-family:Oswald,Impact,sans-serif;letter-spacing:.5px}
+header,main,footer{max-width:760px;margin:0 auto;padding:24px}
+header{display:flex;align-items:center;gap:12px}header img{width:48px;height:48px;border-radius:11px}
+.brand{font-size:26px;color:#fff;text-decoration:none}nav{margin-left:auto}nav a{color:#c8d4eb;margin-left:16px;text-decoration:none}
+h1{font-size:44px;line-height:1.1;margin:24px 0 8px}h2{color:var(--otext);margin-top:36px}
+a{color:var(--otext)}.btn{display:inline-block;background:var(--orange);color:var(--navy);font-weight:700;padding:12px 20px;border-radius:10px;text-decoration:none;margin-top:12px}
+.card{background:rgba(255,255,255,.06);border-radius:14px;padding:16px 20px;margin:12px 0}
+footer{color:#9fb0cf;font-size:14px;border-top:1px solid rgba(255,255,255,.1)}
